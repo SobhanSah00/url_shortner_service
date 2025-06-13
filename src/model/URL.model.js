@@ -12,7 +12,7 @@ const UrlSchema = new Schema({
     },
     visitHistory : [
         {
-            timeStams : {
+            timeStamps : {
                 type : Number
             }
         }

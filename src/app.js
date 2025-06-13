@@ -16,6 +16,10 @@ app.use(express.urlencoded({
     limit : "16mb"
 }))
 
+import UrlRouter from "./routes/Url.route.js"
+
+app.use("/url",UrlRouter)
+
 export {
     app
 }
